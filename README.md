@@ -568,17 +568,6 @@ MIT License - Xem file LICENSE để chi tiết
 
 ---
 
-## 👥 Tác giả
-
-- Bùi Xuân Vinh (23110232)
-- Nguyễn Tuấn Nghĩa (23110204)
-
-**Giảng viên:** TS. Lê Kim Quy  
-**Môn học:** Tính toán Song song  
-**Trường:** [Your University]
-
----
-
 ## 🔗 Tài liệu Tham khảo
 
 - [A* Search Algorithm - Wikipedia](https://en.wikipedia.org/wiki/A*_search_algorithm)
