@@ -273,16 +273,9 @@ We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 ---
 
 **Questions?** Open an issue or check [IMPLEMENTATION_NOTES.md](IMPLEMENTATION_NOTES.md) for technical details.
-```
-
-**Mở kết quả:** Các file `.html` được lưu trong folder `data/`
-- `data/area_map.html`
-- `data/map_visualization_10_queries.html`
-- `data/map_visualization_1000_queries.html`
-
 ---
 
-## 🔧 Algorithm Details
+## 🔧 Chi tiết Thuật toán
 
 ### Thuật toán A* (A* Pathfinding)
 
@@ -524,17 +517,6 @@ nvcc -O2 gpu_par_block_threads_10.cu -o gpu_par_block_threads_10
 ## 📝 Giấy phép
 
 MIT License - Xem file LICENSE để chi tiết
-
----
-
-## 👥 Tác giả
-
-- Bùi Xuân Vinh (23110232)
-- Nguyễn Tuấn Nghĩa (23110204)
-
-**Giảng viên:** TS. Lê Kim Quy  
-**Môn học:** Tính toán Song song  
-**Trường:** [Your University]
 
 ---
 
