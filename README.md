@@ -282,47 +282,6 @@ We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ---
 
-## 📁 Project Structure
-
-```
-parallel-astar/
-├── README.md                       # Main documentation
-├── SETUP.md                        # Installation guide
-├── IMPLEMENTATION_NOTES.md         # Technical deep-dive
-├── CONTRIBUTING.md                # Contribution guidelines
-├── LICENSE                         # MIT License
-├── requirements.txt                # Python dependencies
-├── .gitignore                      # Git ignore rules
-│
-├── compile_and_run.sh             # Build script (Linux/macOS)
-├── compile_and_run.bat            # Build script (Windows)
-│
-├── script/                        # All source code
-│   ├── 01_download_osm.py         # Download OSM graph
-│   ├── 02_build_csr.py            # Convert to CSR format
-│   ├── 03_generate_queries.py     # Generate test queries
-│   ├── 04_visualize_map.py        # Visualization helper
-│   ├── 05_visualize_10_queries.py # Visualize 10 queries
-│   ├── 06_visualize_1000_queries.py # Visualize 1000 queries
-│   ├── cpu_seq_10.py              # CPU baseline (10 queries)
-│   ├── cpu_seq_1000.py            # CPU baseline (1000 queries)
-│   ├── gpu_par_block_threads_10.cu  # GPU implementation (10 queries)
-│   └── gpu_par_block_threads_1000.cu # GPU implementation (1000 queries)
-│
-├── data/                          # Output data (generated)
-│   ├── hanoi_hoankiem_badinh.graphml   # OSM graph
-│   ├── graph_csr.npz              # CSR format
-│   ├── coords.txt                 # Node coordinates
-│   ├── queries_10.txt             # 10 landmark queries
-│   ├── queries_1000.txt           # 1000 random queries
-│   └── *.html                     # Visualization maps
-│
-└── cache/                         # Nominatim cache
-    └── (OSM query results)
-```
-
----
-
 ## 🔧 Algorithm Details
 
 ### Thuật toán A* (A* Pathfinding)
