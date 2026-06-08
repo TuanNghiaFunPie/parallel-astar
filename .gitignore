@@ -1,0 +1,90 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# CUDA/C++ build artifacts
+*.o
+*.so
+*.dylib
+*.exe
+*.out
+*.app
+*.exe.stackdump
+CMakeFiles/
+cmake_install.cmake
+CMakeCache.txt
+Makefile
+
+# Compiled CUDA
+*.o
+*.a
+*.lib
+*.dll
+*.so
+
+# Data and cache (large files)
+data/
+cache/
+*.graphml
+*.npz
+*.npy
+*.txt
+*.html
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# OS
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Project-specific
+*.log
+*.csv
+results/
+benchmark_results/
+temp/
+tmp/
+
+# Keep data structure but ignore content
+!data/.gitkeep
+!cache/.gitkeep
