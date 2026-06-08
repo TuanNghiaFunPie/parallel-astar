@@ -556,4 +556,3 @@ A: Không - cả hai cùng implement A*, chỉ khác phần cứng thực thi.
 ---
 
 **Cập nhật cuối:** Tháng 6, 2026  
-**Trạng thái:** ✅ Sẵn sàng cho Portfolio / GitHub
