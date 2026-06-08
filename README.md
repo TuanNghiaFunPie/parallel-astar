@@ -225,23 +225,3 @@ parallel-astar/
 * [A* Search Algorithm - Wikipedia](https://en.wikipedia.org/wiki/A*_search_algorithm)
 * [CUDA C++ Programming Guide](https://docs.nvidia.com/cuda/cuda-c-programming-guide/)
 * [CSR Format - Wikipedia](https://en.wikipedia.org/wiki/Sparse_matrix#Compressed_sparse_row_(CSR,_CRS_or_Yale_format))
-
----
-
-**Kiến thức cơ sở nền tảng**
-Văn bản mã hóa định dạng (Markdown) cần được tổng hợp thành một khối duy nhất để bảo toàn cấu trúc khi sao chép giữa các hệ thống. Việc cung cấp dữ liệu ở dạng khối mã liền mạch giúp trình biên dịch của nền tảng đích nhận diện chính xác các thẻ định dạng, khoảng trắng và ký tự đặc biệt.
-
-**Từ chuyên ngành**
-* **Raw text** (Văn bản thô): Dữ liệu chữ chưa qua xử lý hiển thị, bao gồm toàn bộ các ký tự điều khiển và định dạng gốc.
-* **Clipboard** (Bộ nhớ tạm): Vùng lưu trữ dữ liệu trung gian của hệ điều hành, cho phép lưu trữ và chuyển dữ liệu giữa các ứng dụng thông qua thao tác sao chép.
-
-**Ví dụ thực tế liên hệ**
-Để áp dụng tệp trên, sử dụng nút "Copy" ở góc trên cùng bên phải của khối mã, mở tệp `README.md` trong trình soạn thảo Visual Studio Code, nhấn `Ctrl + A` để chọn toàn bộ nội dung cũ, nhấn `Ctrl + V` để dán nội dung mới đè lên, sau đó lưu lại tệp.
-
-**Tóm tắt**
-Nội dung tệp README.md đã được xuất ra dưới dạng một khối mã nguyên bản duy nhất, bao gồm toàn bộ các chỉnh sửa về lỗi hiển thị và đồng bộ kỹ thuật, sẵn sàng để sao chép trực tiếp vào dự án.
-
-**Nguồn để đọc thêm**
-* Thao tác làm việc với tệp trên GitHub: [https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository)
-
-```
