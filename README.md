@@ -1,9 +1,5 @@
 # Parallel A* Pathfinding on GPU using CUDA
 
-> Tài liệu hợp nhất từ README.md và README(1).md
-
-# Parallel A* Pathfinding on GPU using CUDA
-
 A high-performance implementation of the A* pathfinding algorithm optimized for GPU execution using CUDA, compared against sequential CPU implementations. This project demonstrates parallel computing techniques applied to real-world routing problems on the Hanoi street network.
 
 ## 📋 Project Overview
